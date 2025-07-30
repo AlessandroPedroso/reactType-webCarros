@@ -3,7 +3,7 @@ import logoImg from "../../assets/logo.svg";
 import { FiUser, FiLogIn } from "react-icons/fi";
 
 export function Header() {
-  const signed = true;
+  const signed = false;
   const loadingAuth = false;
   return (
     <div className="w-full flex items-center justify-center h-16 bg-white drop-shadow mb-4">
